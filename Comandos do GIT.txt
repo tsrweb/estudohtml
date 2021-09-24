@@ -1,0 +1,20 @@
+Comandos do GIT
+
+git --version = Checa a versão do git intalado.
+git config --global user.name "Texto" = Configura o nome do usuário.
+git config --global user.email = Configura o email do usuário.
+git config user.name = exibe o nome do usuário.
+git config --list = exibe as configurações.
+git init = instala o git no diretório atual
+git add -A = Adiciona todos os arquivos no git.
+git commit -m "Texto" = Comita as modificações.
+git commit -am "Texto" = adiciona todos os arquivos e comita no mesmo comando.
+git status = mosta o status do git.
+git reset --hard ID = Apaga a modificação identificada pelo ID.
+git reset --soft ID = Apaga a modicação identificada pelo ID mas mantem os arquivos alterados.
+git branch NOME = cria um novo branch
+git branch checkout NOME = navega pelos branch
+git log = exibe todos os commit
+git diff = exibe a alteração realiza
+git diff --name-only = exibe os arquivos alterados
+git checkout HEAD -- NOME DO ARQUIVO = exibe as alterações do arquivo.
