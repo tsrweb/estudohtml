@@ -12,9 +12,18 @@ git commit -am "Texto" = adiciona todos os arquivos e comita no mesmo comando.
 git status = mosta o status do git.
 git reset --hard ID = Apaga a modificação identificada pelo ID.
 git reset --soft ID = Apaga a modicação identificada pelo ID mas mantem os arquivos alterados.
-git branch NOME = cria um novo branch
-git branch checkout NOME = navega pelos branch
-git log = exibe todos os commit
-git diff = exibe a alteração realiza
-git diff --name-only = exibe os arquivos alterados
+git branch NOME = cria um novo branch.
+git branch checkout NOME = navega pelos branch.
+git branch -D NOME DO BRANCH = deleta o branch local.
+git push origin NOME DO BRANCH = adiciona um novo branch no repositório remoto.
+git push origin :NOME DO BRANCH - deleta o branch remoto.
+git log = exibe todos os commit.
+git diff = exibe a alteração realiza.
+git diff --name-only = exibe os arquivos alterados.
 git checkout HEAD -- NOME DO ARQUIVO = exibe as alterações do arquivo.
+git revert --no-edit ID = Desfaz um commit sem perder o código alterado.
+
+
+-- gitignore --
+Crie um arquivo no projeto com o nome ".gitignore"
+dentro do arquivo, insira os aquitos e pastas que você não quer que suba para o github

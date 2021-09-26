@@ -1,3 +1,1 @@
-Estudo de HTML
-
-Testando reset soft
+Estudo de HTML, git e github.
